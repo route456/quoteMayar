@@ -1,0 +1,47 @@
+.randomQ{
+    background-image: url("../d807cd2807965ce6c63f2304fdf57a84.jpg");
+    background-position: center center;
+    background-size: cover;
+    
+}
+.cont-60{
+    width: 60%;
+}
+.item{
+    font-family: "Playfair Display", serif; 
+    box-shadow:  3px 3px  20px #888888;
+    /* box-shadow: 5px 10px #60545252; */
+   
+    background-color: white;
+}
+.item h1{
+    font-family: "Baskervville SC", serif;
+ 
+    
+}
+
+span{
+    color: palevioletred;
+}
+.quote-btn{
+    background-color: palevioletred;
+    border: 1px black solid;
+    padding: 7px 18px;
+    font-size: 18px;
+    transition: all .5s;
+    
+}
+.quote-btn:hover{
+    background-color: rgb(208, 87, 127);
+}
+#theauthor{
+    /* padding-top: 50px; */
+    color:#605452 ;
+}
+
+
+@media screen and (min-width:0px) and (max-width:992px){
+    .cont-60{
+        width: 90%;
+    }
+}
